@@ -1,0 +1,170 @@
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1A1A40;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: #6FB2D2;
+    width: 7%;
+    border-width: 10px;
+    margin: 10% auto 15%;
+    opacity: 0.2;
+}
+
+/* Title section */
+
+.container-fluid {
+    background-color: #1A1A40;
+}
+
+.birthday-title {
+    padding: 50px 20px 0;
+}
+
+.birthday-title h1 {
+    font-size: 4rem;
+    margin: 15% 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.birthday-title img {
+    width: 100px;
+}
+
+.container-picture {
+    padding: 0 15% 0;
+}
+
+.container-picture .birthday-picture {
+    width: 350px;
+    height: 450px;
+    border-radius: 100%;
+    border-width: 4rem;
+    margin: 20% 0 15%;
+    border: solid 6px;
+    border-color: #fff;
+} 
+
+
+
+/* Carousel Section */
+
+/* .carousel-h1 {
+    font-size: 3rem;
+    font-weight: bold;  
+    color: #6FB2D2;
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+} */
+
+#carousel-captions {
+    padding: 7% 30% 5%;
+}
+
+.carousel-image {
+    height: 500px;
+    width: 400px!important;
+    border: solid 10px #fff;
+    border-radius: 100%;
+    margin-bottom: 8.5rem;
+    margin-inline: auto;
+}
+
+.carousel-caption {
+    border: dashed #6FB2D2;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-caption h5 {
+    font-family: 'Fondamento', cursive;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 1rem 0;
+}
+
+
+
+.carousel-caption p {
+    font-family: 'Fondamento', cursive;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+
+.carousel-control-next {
+    left: 70%;
+}
+
+.carousel-control-prev {
+    left: 15%;
+}
+
+
+/* Media Queries  */
+
+@media (max-width: 1180px) {
+    .carousel-image {
+        margin-bottom: 11rem;
+    }
+    
+}
+
+@media (max-width: 1008px) {
+
+    .birthday-title h1 {
+        font-size: 3.5rem;
+        width: 110%;
+    }
+
+    .container-picture .birthday-picture {
+        width: 300px;
+        height: 400px;
+        margin-top: 26%;
+    } 
+
+    .container-picture {
+        padding: 0 8% 0;
+    }
+
+    #carousel-captions {
+        padding: 10% 23% 5%;
+    }
+
+    .carousel-control-next {
+        left: 79%;
+    }
+    
+    .carousel-control-prev {
+        left: 6%;
+    }
+
+    .carousel-image {
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .birthday-title h1 {
+        margin: 15% auto;
+        font-size: 3.5rem;
+        width: 50%;
+    }
+
+    .container-picture .birthday-picture {
+        width: 350px;
+        height: 450px;
+        margin: 15% 0;
+    }
+
+    #carousel-captions {
+        padding: 10% 10% 5%;
+    }
+}
